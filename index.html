@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WhatsApp Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Login</h1>
+		<form>
+			<label for="phone">Phone number:</label>
+			<input type="text" id="phone" name="phone">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password">
+			<button type="button" onclick="login()">Log in</button>
+			<p>Don't have an account? <a href="#">Sign up</a></p>
+		</form>
+	</div>
+    <div class="container">
+        <button class="btn" id="whatsapp-login" > WhatsApp Login </button>
+    </div>
+
+
+    <script src="https://demo.authlink.me/js/sdk/otpless.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
